@@ -1,5 +1,5 @@
 # Functions and Errors-ETH+AVAX
-This is a smart contract that implements the functionality of three error methods- require(), revert(), and assert() that checks if the user of the contract is the one who owns the contract.
+This is a smart contract that implements the functionality of three error-handling methods- require(), revert(), and assert() that checks if the user of the contract is the one who owns the contract.
 
 # Usage
 1. owner : The contract declares a state variable named owner of type address. This variable is intended to store the address of the owner of the contract.
