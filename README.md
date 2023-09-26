@@ -15,7 +15,7 @@ This is a smart contract that implements the functionality of three error method
    message.
 
 # License
-Not licensed.
+This is not licensed.
   
 
 
