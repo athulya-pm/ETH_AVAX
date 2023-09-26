@@ -1,23 +1,24 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
-contract OwnershipContract {
+contract OwnerContract {
     address public owner;
 
     constructor() {
-        owner = msg.sender;
+       owner = msg.sender;
     }
 
-    function onlyOwner() public view {
+    function Ownerrequire() public view {
         require(msg.sender == owner, "Only the owner can call this function.");
     }
 
-    function onwerHere() public view {
+    function Ownerrevert() public view {
         if(msg.sender!= owner){
             revert("The caller is not the owner.");
         }
     }
 
-    function Owner() public view {
+    function Ownerassert() public view {
         assert(msg.sender == owner);
     }
+}
